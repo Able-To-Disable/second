@@ -1,9 +1,4 @@
-from dataclasses import dataclass
-
-
 #создаем класс Node, который представляет узел в двусвязном списке. Узел содержит ключ, указатель на следующий узел и указатель на предыдущий узел.
-
-@dataclass
 class Node:
     def __init__(self, key):
         key : int
