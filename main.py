@@ -6,9 +6,9 @@ from dataclasses import dataclass
 @dataclass
 class Node:
     def __init__(self, key):
-        self.key = key
-        self.next = None
-        self.prev = None
+        key : int
+        next : None
+        prev : None
 
 #создаем класс LinkedList, который представляет сам список
 class LinkedList:
